@@ -5,7 +5,7 @@ A : 100 x 200 matrix
 X : 200 x 1 vector
 Y : 100 x 1 vector
 s : sparsity value
-
+\n
 X is a vector with random numbers at s number of random locations and zero at remaining locations.
 A is a randomly generated matrix
 Y = A*X
