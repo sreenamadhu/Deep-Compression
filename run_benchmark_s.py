@@ -21,7 +21,7 @@ data_dir = '/home/sreena/Desktop/Research/Deep Compression/data/'
 
 fd = open('Sparsity_exp_new.txt','w+')
 out = []
-for s in range(85,101):
+for s in range(0,101):
 
 	data_loader = {'train' : torch.utils.data.DataLoader(DC_Dataset(sparsity = s,A_size = [100,200],num_samples = 10000),batch_size=16, shuffle=True, num_workers=4),
 				'valid' : torch.utils.data.DataLoader(DC_Dataset(sparsity = s,A_size = [100,200],num_samples = 1000),batch_size=16, shuffle=False, num_workers=4),
