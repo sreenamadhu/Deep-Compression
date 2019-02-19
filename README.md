@@ -1,4 +1,6 @@
-# Deep-Compression version 0
+# Deep-Compression
+
+#Version-0
 All files relating to v0 are in version-0/ folder
 ## Samples:
 
