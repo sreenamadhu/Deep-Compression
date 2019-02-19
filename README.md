@@ -1,15 +1,13 @@
 # Deep-Compression v0
 
-Data preparation:
-A : 100 x 200 matrix
-X : 200 x 1 vector
-Y : 100 x 1 vector
-s : sparsity value
+## Data preparation:
+* A : 100 x 200 matrix
+* X : 200 x 1 vector
+* Y : 100 x 1 vector
+* s : sparsity value
 
 X is a vector with random numbers at s number of random locations and zero at remaining locations.
-
 A is a randomly generated matrix
-
 Y = A*X
 
 x_{0} : zero vector of length 200
