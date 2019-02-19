@@ -1,15 +1,15 @@
 # Deep-Compression
 
-# Version-0
+## Version-0
 All files relating to v0 are in version-0/ folder
-## Samples:
+### Samples:
 
 Training samples : 10000
 Validation samples : 2500
 Testing samples : 5000
 
 
-## Data preparation:
+### Data preparation:
 * A : 100 x 200 matrix
 * X : 200 x 1 vector
 * Y : 100 x 1 vector
@@ -20,7 +20,7 @@ A is a randomly generated matrix
 Y = A*X
 x_{0} : zero vector of length 200
 
-## Training 
+### Training 
 Repeat the stages 1 to s
 
 Stage - i:
@@ -38,12 +38,12 @@ Stage - i:
 Calculate the MSE loss for x_{s} and true_x
 Calculate the gradients based on loss and update the weights for the network.
 
-## Testing
+### Testing
 * Load the weights of best model for a given sparsity level
 * x_{0} being the zero vector of shape 1 x 200. Predict the recovered x from the model.
 * Calculate the MSE loss for predicted x and true x. Normalize the MSE loss and report it.
 
-## Results
+### Results
 Results for the Deep compression v0 is available in results.txt file.
 
 
