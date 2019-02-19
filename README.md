@@ -7,10 +7,13 @@ Y : 100 x 1 vector
 s : sparsity value
 
 X is a vector with random numbers at s number of random locations and zero at remaining locations.
+
 A is a randomly generated matrix
+
 Y = A*X
 
 x_{0} : zero vector of length 200
+
 Repeat the stages 1 to s
   Stage - i:
   true_X, true_Y, true_A will be entering the system
