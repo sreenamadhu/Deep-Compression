@@ -2,9 +2,9 @@
 
 ## Samples:
 
-Training samples : 10000
-Validation samples : 2500
-Testing samples : 5000
+Training samples : 10000<br/>
+Validation samples : 2500<br/>
+Testing samples : 5000<br/>
 
 
 ## Data preparation:
