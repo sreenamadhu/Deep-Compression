@@ -4,9 +4,9 @@
 All files relating to v0 are in version-0/ folder
 ### Samples:
 
-Training samples : 10000
-Validation samples : 2500
-Testing samples : 5000
+Training samples : 10000<br/>
+Validation samples : 2500<br/>
+Testing samples : 5000<br/>
 
 
 ### Data preparation:
@@ -15,12 +15,15 @@ Testing samples : 5000
 * Y : 100 x 1 vector
 * s : sparsity value
 
-X is a vector with random numbers at s number of random locations and zero at remaining locations.
-A is a randomly generated matrix
+X is a vector with random numbers at s number of random locations and zero at remaining locations.<br/>
+A is a randomly generated matrix<br/>
+```
 Y = A*X
-x_{0} : zero vector of length 200
+```
+x_{0} : zero vector of length 200 <br/>
 
 ### Training 
+```
 Repeat the stages 1 to s
 
 Stage - i:
@@ -37,7 +40,7 @@ Stage - i:
 
 Calculate the MSE loss for x_{s} and true_x
 Calculate the gradients based on loss and update the weights for the network.
-
+```
 ### Testing
 * Load the weights of best model for a given sparsity level
 * x_{0} being the zero vector of shape 1 x 200. Predict the recovered x from the model.
