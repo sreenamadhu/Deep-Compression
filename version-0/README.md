@@ -18,9 +18,9 @@ A is a randomly generated matrix<br/>
 ```
 Y = A*X
 ```
-x_{0} : zero vector of length 200<br/>
 
 ## Training
+x_{0} : zero vector of length 200<br/>
 ```
 Repeat the stages 1 to s
 
